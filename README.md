@@ -1,3 +1,7 @@
+# AZ Covid Tracker
+
+Made a quick and dirty covid data tracker based on data from the covid tracker projects.
+
 *Looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
 
 ---
