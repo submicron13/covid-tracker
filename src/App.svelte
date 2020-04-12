@@ -303,7 +303,7 @@ getData()
 
 <style>
 span {
-	color: green;
+	color: #EB6864;
 }
 	.chartWrapper {
 		width:85vw;
@@ -378,14 +378,15 @@ span {
 <svelte:head>
   <link
     rel="stylesheet"
-    href="https://bootswatch.com/4/yeti/bootstrap.min.css" />
+    href="https://bootswatch.com/4/journal/bootstrap.min.css" />
 </svelte:head>
 
 {#if dataLoaded}
 	 <!-- content here -->
 
 <h1 class="text-primary">{state} Covid Tracker</h1>
-<select bind:value={selected} on:change={changedState}>
+<label for="state">Select State:</label>
+<select name="state" bind:value={selected} on:change={changedState}>
 	{#each states as state}
 		<option value={state}>
 			{state.state}
