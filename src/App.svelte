@@ -19,7 +19,8 @@
 	let positivePoints = [];
 	let dataLoaded = false
 	let states = 
-	[
+	// States collapsed
+[
     {
         "id": 0,
         "state": "AL"
@@ -472,4 +473,5 @@ span {
 
 </div>
 <h5>Data From: <a href="https://covidtracking.com/">The Covid Tracking Project</a></h5>
+<h5>Github: <a href="https://github.com/submicron13/covid-tracker">Covid-Tracker</a></h5>
 {/if}
